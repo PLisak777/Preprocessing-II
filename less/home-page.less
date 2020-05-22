@@ -1,3 +1,26 @@
+.container-head {
+  max-width: 100%;
+  padding: 1%;
+  .displayFlex(space-between, flex-start);
+  flex-flow: row wrap;
+
+  .header-content {
+    width: 100%;
+    .displayFlex(space-between, flex-start);
+    flex-flow: row wrap;
+    margin: 0 auto;
+
+    .fun-bus {
+      max-width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row wrap;
+      border-top: 2px dashed @navigation-border;
+      border-bottom: 2px dashed @navigation-border;
+    }
+  }
+}
+
 .home {
 
   .content-section {
@@ -6,8 +29,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
-    
+
+
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -58,4 +81,6 @@
       margin-bottom: 30px;
     }
   }
-}// home
+}
+
+// home
