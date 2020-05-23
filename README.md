@@ -8,8 +8,8 @@ Fun Bus is a travel agency looking for some help on their website. They want a n
 - [x] Add your team lead as collaborator on Github.
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -40,9 +40,9 @@ Follow these steps for completing your project.
 ## Task 4: Desktop Updates Needed
 
 - [x] Review the [desktop design file](design-files/fun-bus-desktop.png). Notice the navigation, header, and buttons at the bottom of the page are missing.
-- [ ] Navigation: Use the `navigation.less` file for all your navigation styling
-- [ ] Main Header: Use the `home-page.less` file for the header styling.
-- [ ] Buttons: Create a parametric mixin that can create the missing buttons in the design file. Use the `mixins.less` file to create your mixin.
+- [x] Navigation: Use the `navigation.less` file for all your navigation styling
+- [x] Main Header: Use the `home-page.less` file for the header styling.
+- [] Buttons: Create a parametric mixin that can create the missing buttons in the design file. Use the `mixins.less` file to create your mixin.
 
 ## Task 5: Mobile Updates Needed
 

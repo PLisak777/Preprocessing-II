@@ -1,23 +1,19 @@
 .container-head {
-  max-width: 100%;
+  width: 100%;
+  // max-width: 800px;
   padding: 1%;
+  margin: 0 auto;
   .displayFlex(space-between, flex-start);
   flex-flow: row wrap;
+  border-bottom: 2px dashed @navigation-border;
 
   .header-content {
     width: 100%;
+    max-width: 800px;
     .displayFlex(space-between, flex-start);
     flex-flow: row wrap;
     margin: 0 auto;
 
-    .fun-bus {
-      max-width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-flow: row wrap;
-      border-top: 2px dashed @navigation-border;
-      border-bottom: 2px dashed @navigation-border;
-    }
   }
 }
 
@@ -28,8 +24,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-
 
     .text-content {
       width: 48%;
@@ -44,6 +38,18 @@
         border-radius: 10px;
       }
     }
+  }
+
+  .welcome-section {
+    border-bottom: 2px dashed @navigation-border;
+  }
+
+  .fun-bus {
+    width: 100%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .inverse-content {
