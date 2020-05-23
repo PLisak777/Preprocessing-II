@@ -1,6 +1,5 @@
 .container-head {
   width: 100%;
-  // max-width: 800px;
   padding: 1%;
   margin: 0 auto;
   .displayFlex(space-between, flex-start);
@@ -14,6 +13,13 @@
     flex-flow: row wrap;
     margin: 0 auto;
 
+    @media @mobile {
+      h1 {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+      }
+    }
   }
 }
 
@@ -28,14 +34,23 @@
     .text-content {
       width: 48%;
       padding-right: 1%;
+
+      @media @mobile {
+        width: 100%;
+      }
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
 
+      @media @mobile {
+        width: 100%;
+      }
+
       img {
         border-radius: 10px;
+
       }
     }
   }
@@ -56,14 +71,28 @@
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
 
+
+
     .text-content {
       padding-left: 1%;
       padding-right: 0;
+
+      @media @mobile {
+        // width: 100%;
+        display: flex;
+        justify-content: flex-start;
+      }
     }
 
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+
+      @media @mobile {
+        width: 100%;
+        display: flex;
+        // justify-content: flex-end;
+      }
     }
   }
 
@@ -74,6 +103,10 @@
     img {
       border-radius: 10px;
     }
+
+    @media @mobile {
+      width: 100%;
+    }
   }
 
   .content-pick {
@@ -82,9 +115,19 @@
     display: flex;
     justify-content: space-between;
 
+    @media @mobile {
+      flex-flow: column wrap;
+    }
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      padding-left: 10%;
+      padding-right: 10%;
+
+      @media @mobile {
+        width: 100%;
+      }
     }
   }
 }

@@ -5,6 +5,11 @@
     flex-flow: row wrap;
     width: 40%;
 
+    @media @mobile {
+        width: 100%;
+        justify-content: space-around;
+    }
+
     ul {
         display: flex;
         justify-content: space-around;
@@ -25,4 +30,8 @@
     background: @button-bg;
     color: white;
     font-size: 2rem;
+
+    @media @mobile {
+        text-align: center;
+    }
 }
