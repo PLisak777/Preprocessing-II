@@ -1,1 +1,38 @@
 // Navigation Styles here
+
+.nav-content {
+    display: flex;
+    flex-flow: row wrap;
+    width: 40%;
+
+    @media @mobile {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 2%;
+
+
+        li a {
+            font-size: 2rem;
+            color: @font-color;
+            text-decoration: none;
+        }
+    }
+}
+
+.btn {
+    .signButton (80%, 5%, 10px);
+    background: @button-bg;
+    color: white;
+    font-size: 2rem;
+
+    @media @mobile {
+        text-align: center;
+        width: 100%;
+    }
+}

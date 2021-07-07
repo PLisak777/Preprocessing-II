@@ -1,1 +1,13 @@
 // Mixins in here
+
+.displayFlex(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.signButton (@width, @padding, @radius) {
+    width: @width;
+    padding: @padding;
+    border-radius: @radius;
+}
